@@ -4,6 +4,7 @@
 
 > A calculator web app built with React.js
 
+![screenshot](./screenshot-calc.png)
 
 ## Built With
 
