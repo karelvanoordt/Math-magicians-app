@@ -1,7 +1,4 @@
 import React from 'react';
-import './logic/calculate';
-import calculate from './logic/calculate';
-
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -13,8 +10,8 @@ class Calculator extends React.Component {
     return (
       <div id="main-container">
         <div id="calc-screen">
-          <input type="number" className="calcscr previous-op" />
-          <input type="number" className=" calcscr current-op" />
+          <div className="calcscr previous-op" />
+          <div className=" calcscr current-op" />
         </div>
         <div id="calc-buttons">
           <button type="button" className="AC grey-btn">AC</button>
