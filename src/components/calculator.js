@@ -21,7 +21,6 @@ class Calculator extends React.Component {
     return (
       <div id="main-container">
         <div id="calc-screen">
-          {/* "Previous operator screen not used for now" */}
           <div className="calcscr previous-op" />
           <div className=" calcscr current-op">
             <p>
