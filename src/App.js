@@ -1,20 +1,31 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
 import './index.css';
-import Calculator from './components/calculator';
+// import Navbar from './components/Navbar';
+import Calculator from './components/Calculator';
+import Home from './components/Home';
+import Quote from './components/Quote';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div className="calculator-body">
-        <Calculator />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/">
+          <Home />
+        </Route>
+        <Route path="/calculator">
+          <Calculator />
+        </Route>
+        <Route path="/quote">
+          <Quote />
+        </Route>
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
