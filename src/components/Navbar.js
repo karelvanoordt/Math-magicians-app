@@ -5,19 +5,20 @@ import './Navbar.css';
 function Navbar() {
   const navStyle = {
     listStyleType: 'none',
+    textDecoration: 'none',
   };
 
   return (
     <ul className="nav-container">
       <h3 className="app-title">Math Magicians</h3>
-      <Link to="/">
-        <li className="nav-el" style={navStyle}>Home</li>
+      <Link to="/" style={navStyle}>
+        <li className="nav-el">Home</li>
       </Link>
-      <Link to="/calculator">
-        <li className="nav-el" style={navStyle}>Calculator</li>
+      <Link to="/calculator" style={navStyle}>
+        <li className="nav-el">Calculator</li>
       </Link>
-      <Link to="/quote">
-        <li className="nav-el" style={navStyle}>Quote</li>
+      <Link to="/quote" style={navStyle}>
+        <li className="nav-el">Quote</li>
       </Link>
     </ul>
   );
