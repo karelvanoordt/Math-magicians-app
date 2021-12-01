@@ -1,0 +1,20 @@
+.nav-container {
+  background-color: #004643;
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Verdana', sans-serif;
+  text-decoration: none;
+}
+
+.app-title {
+  font-size: 1.7rem;
+  color: white;
+}
+
+.nav-el {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
