@@ -1,11 +1,11 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Routes,
   Route,
+  Routes,
 } from 'react-router-dom';
 import './index.css';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
 import Quote from './components/Quote';
@@ -13,16 +13,11 @@ import Quote from './components/Quote';
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
-        <Route path="/">
-          <Home />
-        </Route>
-        <Route path="/calculator">
-          <Calculator />
-        </Route>
-        <Route path="/quote">
-          <Quote />
-        </Route>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/calculator" element={<Calculator />} />
+        <Route exact path="/quote" element={<Quote />} />
       </Routes>
     </Router>
   );

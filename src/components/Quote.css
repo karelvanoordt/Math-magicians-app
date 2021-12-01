@@ -1,0 +1,18 @@
+.quote-container {
+    padding: 5rem;
+    width: 60vw;
+    justify-self: center;
+    margin: auto;
+    font-family: 'Verdana';
+}
+
+.quote-text{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.quote-author{
+    padding-top: 2rem;
+    text-align: right;
+}
+
