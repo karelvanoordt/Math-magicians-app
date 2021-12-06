@@ -6,7 +6,6 @@ import {
 } from 'react-router-dom';
 import './index.css';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
 import Quote from './components/Quote';
@@ -20,7 +19,6 @@ function App() {
         <Route exact path="/calculator" element={<Calculator />} />
         <Route exact path="/quote" element={<Quote />} />
       </Routes>
-      <Footer />
     </Router>
   );
 }
