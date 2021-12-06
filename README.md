@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Heroku Link](https://github.com/karelvanoordt)
+[Heroku Link](https://math-magicians-karelvanoordt.herokuapp.com/)
 [Netlify link](https://github.com/karelvanoordt)
 
 ## Getting Started
