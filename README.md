@@ -18,8 +18,8 @@
 
 ## Live Demo
 
-[Heroku Link](https://math-magicians-karelvanoordt.herokuapp.com/)
-[Netlify link](https://github.com/karelvanoordt)
+- [Heroku Link](https://math-magicians-karelvanoordt.herokuapp.com/)
+- [Netlify link](https://kind-williams-282257.netlify.app/)
 
 ## Getting Started
 
