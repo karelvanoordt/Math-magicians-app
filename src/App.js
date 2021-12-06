@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import './index.css';
 import Navbar from './components/Navbar';
-import Calculator from './components/Calculator';
+import Calculator from './components/calculator';
 import Home from './components/Home';
 import Quote from './components/Quote';
 
