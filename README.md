@@ -18,8 +18,8 @@
 
 ## Live Demo
 
-Coming Soon
-
+[Heroku Link](https://github.com/karelvanoordt)
+[Netlify link](https://github.com/karelvanoordt)
 
 ## Getting Started
 
